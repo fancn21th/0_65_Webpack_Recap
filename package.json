@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/fancn21th/0_65_Webpack_Recap#readme",
   "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.21.0",
     "webpack-cli": "^3.1.2"
   },

@@ -1,0 +1,16 @@
+ @font-face {
+   font-family: 'MyFont';
+   src:  url('./fonts/ChakraPetch-Regular.ttf') format('ttf');
+   font-weight: 600;
+   font-style: normal;
+ }
+
+.hello {
+    width: 400px;
+    height: 300px;
+    font-size: 30px;
+    color: red;
+    font-family: 'MyFont';
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+}
