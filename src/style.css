@@ -1,16 +1,18 @@
  @font-face {
-   font-family: 'MyFont';
-   src:  url('./fonts/ChakraPetch-Regular.ttf') format('ttf');
-   font-weight: 600;
-   font-style: normal;
+   font-family: MyFont;
+   src:  url('./fonts/Charmonman-Regular.ttf');
  }
 
 .hello {
     width: 400px;
-    height: 300px;
     font-size: 30px;
-    color: red;
-    font-family: 'MyFont';
-    background-image: url('./bg.jpg');
-    background-repeat: no-repeat;
+    color: #555555;
+    font-family: MyFont;
+    border: 1px solid #555555;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hello img {
+  width: 100%;
 }
