@@ -1,0 +1,28 @@
+{
+  "name": "webpackreacp",
+  "version": "1.0.0",
+  "description": "a recap of webpack in 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fancn21th/0_65_Webpack_Recap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fancn21th/0_65_Webpack_Recap/issues"
+  },
+  "homepage": "https://github.com/fancn21th/0_65_Webpack_Recap#readme",
+  "devDependencies": {
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
