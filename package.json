@@ -2,10 +2,9 @@
   "name": "webpackreacp",
   "version": "1.0.0",
   "description": "a recap of webpack in 2018",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open",
+    "start": "webpack-dev-server --open --hotOnly",
     "watch": "webpack --watch",
     "build": "webpack --config webpack.config.js",
     "server": "node server.js"
@@ -33,6 +32,7 @@
     "webpack-cli": "^3.1.2",
     "webpack-dev-middleware": "^3.4.0",
     "webpack-dev-server": "^3.1.9",
+    "webpack-hot-middleware": "^2.24.3",
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
