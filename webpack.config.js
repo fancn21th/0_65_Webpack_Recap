@@ -15,12 +15,13 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-            title: 'Output Management'
+            title: 'Hot Module Replacement'
         }),
         new webpack.HotModuleReplacementPlugin()
     ],
     output: {
         filename: '[name].bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
+        // publicPath: '/'
     }
 };
