@@ -1,5 +1,6 @@
 {
   "name": "webpackreacp",
+  "sideEffects": false,
   "version": "1.0.0",
   "description": "a recap of webpack in 2018",
   "scripts": {
