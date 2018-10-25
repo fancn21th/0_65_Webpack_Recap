@@ -15,4 +15,13 @@ function component() {
     return element;
 }
 
-document.body.appendChild(component());
+let element = component()
+document.body.appendChild(element)
+
+if (module.hot) {
+    module.hot.accept('./math.js', function() {
+        document.body.removeChild(element);
+        element = component(); // Re-render the "component" to update the click handler
+        document.body.appendChild(element)
+    })
+}
